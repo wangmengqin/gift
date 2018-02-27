@@ -1,0 +1,14 @@
+require(["config"],function(){
+	require(["jquery","swiper","banner","jslink","paging","list","indexajax","detail","cookie","shop","regist","login","layer","collect","history"],function(jquery,swiper,banner,jslink,paging,list,indexajax,detail,cookie,shop,regist,login,layer,collect,history){
+		banner.init();
+		jslink.init();
+		list.init();
+		indexajax.init();
+		detail.init();
+		shop.init();
+		regist.init();
+		login.init();
+		collect.init();
+		history.init();
+	})
+})

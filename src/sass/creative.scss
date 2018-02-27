@@ -1,0 +1,182 @@
+@import "base";
+
+$width:1200px;
+a{
+	color:#333;
+}
+i{
+	display:inline-block;
+	background:url(../imgs/index/icons.png) no-repeat -232px -161px;
+	margin-left:5px;
+	vertical-align:middle;
+}
+.content-bg{
+	background:#f5f5f5;
+	font-size:12px;
+	color:#333;
+	padding-bottom:50px;
+}
+.con-nav{
+	width:$width;
+	margin:0 auto;
+	overflow:hidden;
+	line-height:62px;
+}
+.fleft{
+	float:left;
+	a{
+		margin:0 10px;
+	}
+}
+.fright{
+	float:right;
+	a{
+		display:inline-block;
+		width:88px;
+		height:20px;
+		border:2px solid #979795;
+		border-radius:10px;
+		text-align:center;
+		color:#666;
+		margin-left:10px;
+		line-height:20px;
+	}
+	a:hover{
+		border:2px solid #d93732;
+	}
+}
+.sort-price-bg{
+	background:#fff;
+	margin-bottom:14px;
+	.sort-price{
+		width:$width;
+		margin:0 auto;
+		overflow:hidden;
+		p{
+			padding:40px 0;
+			line-height:28px;
+			border-bottom:1px solid #ededed;
+			a{
+				margin:0 18px;
+			}
+		}
+	}
+	.sort-list{
+		width:$width;
+		margin:0 auto;
+		overflow:hidden;
+		p{
+			padding:20px 0;
+			font-size:14px;
+			line-height:28px;
+			border-bottom:1px solid #ededed;
+			a{
+				margin:0 18px;
+			}
+			.more{
+				margin:0 18px 0 60px;
+				i{
+					width:12px;
+					height:6px;
+					background-position:-220px 0;
+				}
+			}
+			.mar25{
+				margin:0 18px 0 36px;
+			}
+			span{
+				margin-left:60px;
+				display:none;
+			}
+		}
+	}
+}
+.active{
+	color:#d93732;
+}
+.con-order{
+	width:$width;
+	margin:0 auto;
+	overflow:hidden;
+	line-height:97px;
+	span{
+		margin-left:40px;
+	}
+}
+.pagination{
+	text-align: center;
+    margin: 20px 0;
+}
+.list{
+	width:$width+20px;
+	margin:0 auto;
+	overflow:hidden;
+	li{
+		padding:30px;
+		background:#fff;
+		margin:0 10px 20px;
+		img{
+			width:225px;
+			height:225px;
+		}
+	}
+	li:hover{
+		box-shadow:0px 0px 3px 3px #ccc;
+	}
+}
+.list-title{
+	margin-top:20px;
+}
+.list-sort{
+	overflow:hidden;
+	margin-top:20px;
+	span{
+		border:1px solid #6e6e6e;
+		border-radius:3px;
+		padding:0 3px;
+	}
+	em{
+		font-style:normal;
+	}
+}
+
+.gift-plan{
+	width:$width;
+	margin:0 auto;
+	overflow:hidden;
+	padding:50px 0;
+	background:#fff;
+	.plan-top{
+		overflow:hidden;
+	}
+	.fleft{
+		width:280px;
+		text-align:center;
+		font-size:24px;
+		img{
+			margin-top:10px;
+		}
+	}
+	.fright{
+		width:810px;
+		margin-right:90px;
+		h3{
+			font-size:15px;
+			line-height:36px;
+		}
+		p{
+			line-height:22px;
+			text-indent: 2em;
+		}
+	}
+	.plan-bottom{
+		width:1080px;
+		font-size:14px;
+		margin-top:20px;
+		text-align:right;
+		i{
+			width:17px;
+			height:10px;
+		}
+	}
+}
